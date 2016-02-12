@@ -1,1 +1,1 @@
-web: gunicorn RidesBackend.wsgi:application
+web: gunicorn PingMeBackend.wsgi:application
