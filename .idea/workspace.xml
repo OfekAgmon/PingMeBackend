@@ -65,11 +65,11 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PingMeBackend/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.056013178" vertical-offset="1173" max-vertical-offset="1972">
-              <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.52076125" vertical-offset="1399" max-vertical-offset="2006">
+              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
               <folding>
                 <element signature="e#386#395#0" expanded="true" />
-                <marker date="1455283895678" expanded="true" signature="419:489" placeholder="..." />
+                <marker date="1455284252255" expanded="true" signature="419:489" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -957,11 +957,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PingMeBackend/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.056013178" vertical-offset="1173" max-vertical-offset="1972">
-          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.52076125" vertical-offset="1399" max-vertical-offset="2006">
+          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
           <folding>
             <element signature="e#386#395#0" expanded="true" />
-            <marker date="1455283895678" expanded="true" signature="419:489" placeholder="..." />
+            <marker date="1455284252255" expanded="true" signature="419:489" placeholder="..." />
           </folding>
         </state>
       </provider>
