@@ -77,10 +77,11 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PingMeBackend/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.08401977" vertical-offset="1275" max-vertical-offset="2210">
-              <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.24382208" vertical-offset="124" max-vertical-offset="2244">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="e#386#395#0" expanded="true" />
+                <marker date="1455278352355" expanded="false" signature="474:544" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -985,10 +986,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PingMeBackend/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.08401977" vertical-offset="1275" max-vertical-offset="2210">
-          <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.24382208" vertical-offset="124" max-vertical-offset="2244">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="e#386#395#0" expanded="true" />
+            <marker date="1455278352355" expanded="false" signature="474:544" placeholder="..." />
           </folding>
         </state>
       </provider>
