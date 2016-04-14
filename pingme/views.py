@@ -47,7 +47,7 @@ class LocationViewSet(viewsets.ModelViewSet):
             serializer.save(user=self.request.user)
             return Response(serializer.data)
         else:
-            return HttpResponseBadRequest()
+            return Response("location already exists", status=status.HTTP_400_BAD_REQUEST)
 
 
 
@@ -57,10 +57,16 @@ class DeviceViewSet(viewsets.ModelViewSet):
 
     @list_route(methods=['put'], permission_classes=[permissions.IsAuthenticated],)
     def freeUser(self, request):
-        device = Device.objects.get(user=self.request.user)
-        device.user = None
-        device.save()
-        return Response(status=status.HTTP_200_OK)
+        try:
+            device = Device.objects.get(user=self.request.user)
+        except Device.DoesNotExist:
+            device = None
+        if device is None:
+            return HttpResponseBadRequest()
+        else:
+            device.user = None
+            device.save()
+            return Response(status=status.HTTP_200_OK)
 
 
 class ObtainAuthTokenAndUser(APIView):
